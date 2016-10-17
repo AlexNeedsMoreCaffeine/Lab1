@@ -7,7 +7,7 @@ Week4 Lab lecture
 $username = $_GET["username"];
 echo $username;
 
-echo"<p>Hello" . $username . " how are you today? </p>";
+echo"<p>Hello " . $username . " how are you today? </p>";
 
 echo"<p>Hello {$username} how are you today? </p>";
 
