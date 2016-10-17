@@ -15,6 +15,6 @@ echo"<p>Hello {$planet} </p>";
 
 
 
-//echo "   <a href=\\"http://alexcm3028.azurewebsites.net/helloPrinter.php?planet=earth\\">Earth</a>";
+echo "   <a href=\\"http://alexcm3028.azurewebsites.net/helloPrinter.php?planet=earth\\">Earth</a>";
 
 ?>
