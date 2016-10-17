@@ -5,10 +5,16 @@ Week4 Lab lecture
 <?php
 
 $username = $_GET["username"];
-echo $username;
+echo $planet;
 
-echo"<p>Hello " . $username . " </p>";
+echo"<p>Hello " . $planet . " </p>";
 
-echo"<p>Hello {$username} </p>";
+echo"<p>Hello {$planet} </p>";
+
+
+
+
+
+<a href=\\"http://alexcm3028.azurewebsites.net/helloPrinter.php?planet=earth\\">Earth</a>";
 
 ?>
