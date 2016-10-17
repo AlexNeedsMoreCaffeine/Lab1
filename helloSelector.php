@@ -4,7 +4,7 @@ Week4 Lab lecture
 <!DOCTYPE html>
 <?php
 
-$username = $_GET["username"];
+$planet = $_GET["planet"];
 echo $planet;
 
 echo"<p>Hello " . $planet . " </p>";
