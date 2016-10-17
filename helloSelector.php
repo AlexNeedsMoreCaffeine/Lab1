@@ -2,16 +2,13 @@
 Week4 Lab
 */
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>helloSelector</title>
-</head>
-<body>
-<form action="helloPrinter.php" method = "post">
-    
-    <input type = "text" placeholder = "First Name" name = "firstname">
-    <input type = "text" placeholder = "Last Name" name = "lastname">
-    <input type = "submit" value = 'GO GO GO!'>
-</form>
-</body>
+<?php
+
+$username = $_GET["username"];
+echo $username;
+
+echo"<p>Hello" . $username . " how are you today? </p>";
+
+echo"<p>Hello {$username} how are you today? </p>";
+
+?>

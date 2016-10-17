@@ -3,9 +3,8 @@ Week4 Lab
  */
 <?php
 
-$firstname = $_POST["firstname"];
-$lastname = $_POST["lastname"];
+$username = $_GET["username"];
 
-echo "Hello {$firstname} {$lastname}! How are you today?";
+echo $username
 
 ?>
